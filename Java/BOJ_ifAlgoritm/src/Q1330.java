@@ -1,4 +1,6 @@
+//두 수 비교하기
 import java.util.Scanner;
+
 public class Q1330 {
 
 	public static void main(String[] args) {

@@ -1,5 +1,6 @@
-package day12_31;
+//알람 시계
 import java.util.Scanner;
+
 public class Q2884 {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);

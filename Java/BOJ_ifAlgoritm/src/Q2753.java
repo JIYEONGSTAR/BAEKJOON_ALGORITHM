@@ -1,5 +1,6 @@
-package day12_31;
+//À±³â
 import java.util.Scanner;
+
 public class Q2753 {
 
 	public static void main(String[] args) {

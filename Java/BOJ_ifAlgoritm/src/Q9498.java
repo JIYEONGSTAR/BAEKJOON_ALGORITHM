@@ -1,4 +1,6 @@
+//시험 성적
 import java.util.Scanner;
+
 public class Q9498 {
 
 	public static void main(String[] args) {

@@ -1,5 +1,6 @@
 //¼¼ ¼ö
 import java.util.Scanner;
+
 public class Q10817 {
 
 	public static void main(String[] args) {
