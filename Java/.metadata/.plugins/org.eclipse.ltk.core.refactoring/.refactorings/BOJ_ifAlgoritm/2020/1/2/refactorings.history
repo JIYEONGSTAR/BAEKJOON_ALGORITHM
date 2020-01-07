@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;scanner&apos; in &apos;Q10817.main(...)&apos; to &apos;sc&apos;&#x0D;&#x0A;- Original project: &apos;BOJ_ifAlgoritm&apos;&#x0D;&#x0A;- Original element: &apos;Q10817.main(String[]).scanner&apos;&#x0D;&#x0A;- Renamed element: &apos;scanner&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;scanner&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Q10817.java[Q10817~main~\[QString;@scanner!165!203!173!179!QScanner;!0!false" name="sc" references="true" stamp="1578425131237" version="1.0"/>
+</session>
