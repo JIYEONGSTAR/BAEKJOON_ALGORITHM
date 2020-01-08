@@ -1,3 +1,4 @@
+
 //°³
 public class Q10172 {
 

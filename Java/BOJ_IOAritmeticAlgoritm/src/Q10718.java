@@ -1,3 +1,4 @@
+
 //We love kriii
 public class Q10718 {
 

@@ -1,3 +1,4 @@
+
 //°ö¼À
 import java.util.Scanner;
 public class Q2588 {
