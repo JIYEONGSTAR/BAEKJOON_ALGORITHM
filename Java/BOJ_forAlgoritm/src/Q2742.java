@@ -7,7 +7,7 @@ public class Q2742 {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();//몇개입력받을지
 		for(int i=n;i>=1;i--) {
-			System.out.println(i);//n부터 1까지 출력
+			System.out.println(i);//n부터 1까지 출력(큰수->작은수)
 		}
 		sc.close();
 	}
