@@ -8,9 +8,9 @@ public class Q2941 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		String word = sc.next();
-		String croatia[]= {"c=","c-","dz=","d-","lj","nj","s=","z="};
-		for(int i=0;i<croatia.length;i++) {
-			word = word.replaceAll(croatia[i],"c");	
+		String croatia[] = { "c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z=" };
+		for (int i = 0; i < croatia.length; i++) {
+			word = word.replaceAll(croatia[i], "c");
 		}
 		System.out.println(word.length());
 		sc.close();
