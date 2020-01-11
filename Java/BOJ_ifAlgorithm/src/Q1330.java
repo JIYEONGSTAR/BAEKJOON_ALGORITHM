@@ -1,4 +1,3 @@
-
 //두 수 비교하기
 import java.util.Scanner;
 

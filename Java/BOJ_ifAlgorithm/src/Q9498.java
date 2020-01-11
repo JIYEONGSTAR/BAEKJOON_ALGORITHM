@@ -1,4 +1,3 @@
-
 //시험 성적
 import java.util.Scanner;
 
