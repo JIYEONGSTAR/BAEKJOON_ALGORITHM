@@ -1,7 +1,6 @@
 
 //°³
 public class Q10172 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.print("|\\_/|\r\n" + 
@@ -10,5 +9,4 @@ public class Q10172 {
 				"|\"^\"`    |\r\n" + 
 				"||_/=\\\\__|");
 	}
-
 }
