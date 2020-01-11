@@ -1,6 +1,5 @@
 
 //문자열 반복
-
 import java.util.Scanner;
 
 public class Q2675 {

@@ -20,7 +20,7 @@ public class Q10809 {
 			}
 		}
 		for (int i = 0; i < 26; i++) {
-			System.out.print(a[i]+" ");
+			System.out.print(a[i] + " ");
 		}
 		sc.close();
 	}
