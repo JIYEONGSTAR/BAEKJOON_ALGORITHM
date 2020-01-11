@@ -1,8 +1,8 @@
+
 //숫자의 개수
 import java.util.Scanner;
 
 public class Q2577 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
@@ -24,5 +24,4 @@ public class Q2577 {
 		}
 		sc.close();
 	}
-
 }
