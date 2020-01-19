@@ -1,4 +1,3 @@
-
 //¹úÁı
 import java.util.Scanner;
 
