@@ -6,8 +6,8 @@ public class Q2292 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scanner = new Scanner(System.in);
-		int n = scanner.nextInt();
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
 		int a = 1;// 정답개수
 		int s = 1;// sum
 		while (true) {
@@ -18,7 +18,7 @@ public class Q2292 {
 			s += a * 6;
 			a++;
 		}
-		scanner.close();
+		sc.close();
 	}
 
 }
