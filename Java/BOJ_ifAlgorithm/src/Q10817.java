@@ -1,4 +1,3 @@
-
 //¼¼ ¼ö
 import java.util.Scanner;
 
