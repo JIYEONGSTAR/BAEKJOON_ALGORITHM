@@ -1,4 +1,7 @@
 //팰린드롬수 
+//20210310
+//stringAlgorithm
+
 import java.util.Scanner;
 
 public class Q1259 {
