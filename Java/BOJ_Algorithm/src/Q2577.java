@@ -1,4 +1,4 @@
-//������ ����
+//숫자의 개수
 //20200107
 //oneDimensionalArrayAlgorithm
 

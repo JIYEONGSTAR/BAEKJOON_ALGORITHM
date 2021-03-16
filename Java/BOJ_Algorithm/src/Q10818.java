@@ -1,4 +1,4 @@
-//�ּ�, �ִ�
+//최소, 최대 
 //20200107
 //oneDimensionalArrayAlgorithm
 

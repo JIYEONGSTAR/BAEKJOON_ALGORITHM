@@ -1,4 +1,4 @@
-//����
+//곱셈
 //20191230
 //IOAritmeticAlgorithm
 

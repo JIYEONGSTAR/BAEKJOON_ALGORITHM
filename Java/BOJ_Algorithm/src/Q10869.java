@@ -1,4 +1,4 @@
-//��Ģ����
+//사칙연산 
 //20191230
 //IOAritmeticAlgorithm
 

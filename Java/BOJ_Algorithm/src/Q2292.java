@@ -1,4 +1,4 @@
-//����
+//벌집 
 //20200117
 //mathAlgorithm
 
@@ -10,7 +10,7 @@ public class Q2292 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int a = 1;// ���䰳��
+		int a = 1;// 정답개수 
 		int s = 1;// sum
 		while (true) {
 			if (n <= s) {

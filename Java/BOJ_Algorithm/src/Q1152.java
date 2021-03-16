@@ -1,4 +1,4 @@
-//�ܾ��� ����
+//단어의 개수
 //20200109
 //stringAlgorithm
 
@@ -12,7 +12,7 @@ public class Q1152 {
 		String n = sc.nextLine();
 		String word[] = n.split(" ");
 		int countspace = 0;
-		char ch[] = n.toCharArray();// �ܾ� �����ϱ� ���� ' '���� �˾ƺ��� ����
+		char ch[] = n.toCharArray();//단어 시작하기 전이 ' '인지 알아보기 위해
 		for (int i = 0; i < word.length; i++) {
 			if (ch[i] == (char) 32)
 				countspace++;

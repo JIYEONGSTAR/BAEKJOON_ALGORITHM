@@ -1,4 +1,4 @@
-//	A/B
+//A/B
 //20191230
 //IOAritmeticAlgorithm
 

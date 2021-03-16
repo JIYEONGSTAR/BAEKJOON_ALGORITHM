@@ -1,4 +1,4 @@
-//�Ҽ� ���ϱ�
+//소수 구하기 
 //20200122
 //mathAlgorithm
 
@@ -15,8 +15,8 @@ public class Q1929 {
 		a[1]=true;
 		for (int i = 2; i <= a.length; i++) {
 			for(int j=2;i*j<a.length;j++) {
-				a[i*j]=true;//�Ҽ��� �ƴϸ� true
-			}
+				a[i*j]=true;//소수가 아니면 true
+				}
 		}
 		for(int i=first;i<=second;i++) {
 			if(a[i]==false)

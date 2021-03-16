@@ -1,4 +1,4 @@
-//��ҹ��� �ٲٱ�
+//대소문자 바꾸기 
 //20200120
 //stringAlgorithm
 
@@ -11,7 +11,7 @@ public class Q2744 {
 		Scanner sc = new Scanner(System.in);
 		String x = sc.next();
 		for (int i = 0; i < x.length(); i++) {
-			char c = x.charAt(i);// i��° ����
+			char c = x.charAt(i);// i번째 글자
 			if (c >= 'a') {
 				System.out.print((char) (c - 32));
 			} else

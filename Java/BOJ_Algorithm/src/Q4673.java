@@ -1,9 +1,9 @@
-//���� �ѹ�
+//셀프 넘버
 //20200108
 //functionAlgorithm
 
 public class Q4673 {
-	public static int nonselfnum(int n) {// �����ѹ��� �ƴ� �� ����,�����ڸ� ���ڷ�
+	public static int nonselfnum(int n) {// 셀프넘버가 아닌 수 리턴,생성자를 인자로
 		int num = n, a;
 		while (n != 0) {
 			a = n % 10;

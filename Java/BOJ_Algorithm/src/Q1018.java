@@ -5,18 +5,18 @@
 import java.util.Scanner;
 
 public class Q1018 {
-	public static int[][] inputbox;// 입력받는 배열 
-	public static int min = 64;// 최소값 
+	public static int[][] inputbox;// 입력받는 배열
+	public static int min = 64;// 최소값
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int m, n;
 		n = sc.nextInt(); // 행
 		m = sc.nextInt(); // 열
-		sc.nextLine(); // 있는 바둑판 배열 입력
-				inputbox = new int[n][m];
+		sc.nextLine();
+		inputbox = new int[n][m];
 		for (int i = 0; i < n; i++) {
-			String str = sc.nextLine().trim();
+			String str = sc.nextLine().trim();// 있는 바둑판 배열 입력, 공백제
 			for (int j = 0; j < m; j++) {
 				if (str.charAt(j) == 'W') {
 					inputbox[i][j] = 0; // W일 때는 0
@@ -31,17 +31,18 @@ public class Q1018 {
 			}
 		}
 		System.out.println(min);
+		sc.close();
 	}
 
 	public static int find(int x, int y) {
 		int countW = 0;// white로 시작할 때 틀린 거 카운트
 		int countB = 0;// black로 시작할 때 틀린 거 카운트
-		for (int i = x; i < x+8; i++) {//
-			for (int j = y; j < y+8; j++) {
-				if ((i + j) % 2 != inputbox[i][j]) { //배열이 w로 시작하는 것과 입력값 비
+		for (int i = x; i < x + 8; i++) {//
+			for (int j = y; j < y + 8; j++) {
+				if ((i + j) % 2 != inputbox[i][j]) { // 배열이 w로 시작하는 것과 입력값 비
 					countW++;
 				}
-				if((i+j+1)%2!=inputbox[i][j]) {//배열이 b로 시작하는 것과 입력값 비
+				if ((i + j + 1) % 2 != inputbox[i][j]) {// 배열이 b로 시작하는 것과 입력값 비
 					countB++;
 				}
 			}

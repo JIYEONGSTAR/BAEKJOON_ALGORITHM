@@ -1,4 +1,4 @@
-//���
+//상수
 //20200109
 //stringAlgorithm
 
@@ -24,6 +24,7 @@ public class Q2908 {
 	private static String reverseString(String s) {
 		// TODO Auto-generated method stub
 		return (new StringBuffer(s)).reverse().toString();
-	}// ���ͳ� �˻� ���ڿ� ������ �ڹ�
+	}//인터넷 검색 문자열 뒤집기 자바
+
 
 }

@@ -1,4 +1,4 @@
-//ũ�ξ�Ƽ�� ���ĺ�
+//크로아티아 알파벳
 //20200111
 //stringAlgorithm
 
@@ -19,4 +19,4 @@ public class Q2941 {
 	}
 
 }
-//replace ����Ѵ�.
+//replace 사용한다.

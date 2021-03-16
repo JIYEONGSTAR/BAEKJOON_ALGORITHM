@@ -1,4 +1,4 @@
-//������
+//나머지 
 //20191230
 //IOAritmeticAlgorithm
 

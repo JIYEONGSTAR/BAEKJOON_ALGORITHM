@@ -1,4 +1,4 @@
-//ū �� A+B
+//큰 수 A+B
 //20200109
 //IOAritmeticAlgorithm
 
@@ -18,4 +18,4 @@ public class Q10757 {
 	}
 
 }
-//ū ������ bigInteger����Ѵ�.10827��ȣ�� ����ѵ� �ٸ�...
+//큰 수여서 bigInteger사용한다.10827번호와 비슷한듯 다른...

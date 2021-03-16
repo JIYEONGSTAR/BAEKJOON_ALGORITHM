@@ -1,4 +1,4 @@
-//�ִ�
+//최대값
 //20200107
 //oneDimensionalArrayAlgorithm
 

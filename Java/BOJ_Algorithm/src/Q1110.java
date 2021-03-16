@@ -1,4 +1,4 @@
-//���ϱ� ����Ŭ
+//더하기 사이클
 //20200107
 //whileAlgorithm
 
@@ -9,23 +9,23 @@ public class Q1110 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();// �Է�
-		int first = a;// �Է°�����
+		int a = sc.nextInt();// 입력
+		int first = a;// 입력값저장
 		int lastA, firstA, b, lastB, count = 0;
 
 		while (true) {
 			count = count + 1;// count
-			lastA = a % 10;// a�� 1���ڸ�
+			lastA = a % 10;// a의 1의자리
 			if (a < 10) {
-				firstA = 0;// ���ڸ����̸� 0�� ���δ�
+				firstA = 0;// 한자리수이면 0을 붙인다
 			}
-			firstA = a / 10;// a�� 10���ڸ�
-			b = firstA + lastA;// b�� �� ���ϱ�
-			lastB = b % 10;// b�� 1���ڸ�
-			// System.out.println("a��"+a+"b��"+b);
+			firstA = a / 10;// a의 10의자리
+			b = firstA + lastA;// b의 값 구하기
+			lastB = b % 10;// b의 1의자리
+			// System.out.println("a값"+a+"b값"+b);
 
-			a = lastA * 10 + lastB;// ���ο� a�� ����
-			if (a == first)// �ٽ� ����� a���� �Էµ� ���� ������ �ݺ��� ����
+			a = lastA * 10 + lastB;// 새로운 a값 저장
+			if (a == first)// 다시 저장된 a값이 입력된 값과 같으면 반복문 종료
 				break;
 
 		}

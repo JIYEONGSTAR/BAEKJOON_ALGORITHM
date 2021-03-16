@@ -1,4 +1,4 @@
-//������
+//나머지 
 //20200107
 //oneDimensionalArrayAlgorithm
 
@@ -11,9 +11,9 @@ public class Q3052 {
 		Scanner sc = new Scanner(System.in);
 
 		int count = 0;
-		int a[] = new int[10];// �Է¹���
-		int b[] = new int[10];// ������
-		int c[] = new int[42];// �������� �����
+		int a[] = new int[10];// 입력받음
+		int b[] = new int[10];// 나머지
+		int c[] = new int[42];// 나머지가 몇개인지
 		for (int i = 0; i < 10; i++) {
 			a[i] = sc.nextInt();
 			b[i] = a[i] % 42;

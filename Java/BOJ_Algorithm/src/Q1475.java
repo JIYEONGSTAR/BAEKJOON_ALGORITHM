@@ -1,4 +1,4 @@
-//�� ��ȣ
+//방 번호
 //20200210
 //mathAlgorithm
 
@@ -9,12 +9,12 @@ public class Q1475 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		String n = sc.next();// �Է�
-		int x[] = new int[n.length()];// ���ڸ� ���ڷ�
+		String n = sc.next();// 입력
+		int x[] = new int[n.length()];// 문자를 숫자로
 		for (int i = 0; i < n.length(); i++)
 			x[i] = n.charAt(i) - '0';// String->char->int;
-		int num[] = new int[10];// 0���� 9���� ��
-		int count = 0;// ��Ʈ����
+		int num[] = new int[10];// 0부터 9까지 수
+		int count = 0;// 세트개수
 		for (int i = 0; i < x.length; i++) {
 			if (x[i] == 6) {
 

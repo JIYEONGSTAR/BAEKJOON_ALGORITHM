@@ -1,4 +1,4 @@
-//�ܾ� ����
+//단어 공부
 //20200109
 //stringAlgorithm
 
@@ -9,12 +9,12 @@ public class Q1157 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		String s = sc.next();// ���ڿ� �Է�
+		String s = sc.next();// 문자열 입력
 		s = s.toUpperCase();
 		int max = 0;
 		char maxalpha = 0;
-		int count = 0;// ���帹�̻���ϴ� ���ĺ��� ����.count�� 2�̻��̸� ?���
-		char[] a = s.toCharArray();// �ѱ��ھ� �ڸ���
+		int count=0;//가장많이사용하는 알파벳의 개수.count가 2이상이면 ?출력
+		char[] a = s.toCharArray();// 한글자씩 자르기
 		int alphanum[] = new int[26];
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 'A'; j <= 'Z'; j++) {

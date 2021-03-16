@@ -1,4 +1,4 @@
-//�Ѽ�
+//한수 
 //20200108
 //functionAlgorithm
 
@@ -13,7 +13,7 @@ public class Q1065 {
 			one = i % 10;
 			ten = (i / 10) % 10;
 			hund = i / 100;
-			if (ten * 2 == one + hund) {// �������� ��Ģ
+			if (ten * 2 == one + hund) {// 등차수열 법칙 
 				hansu++;
 			}
 		}

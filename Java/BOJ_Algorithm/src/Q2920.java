@@ -1,4 +1,4 @@
-//����
+//음계 
 //20200107
 //oneDimensionalArrayAlgorithm
 
@@ -27,4 +27,4 @@ public class Q2920 {
 	}
 
 }
-//������ ������ �븰��.
+//백준의 허점을 노린다.

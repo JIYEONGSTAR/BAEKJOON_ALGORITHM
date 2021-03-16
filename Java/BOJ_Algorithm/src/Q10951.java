@@ -11,7 +11,7 @@ public class Q10951 {
 		@SuppressWarnings("resource") //
 		Scanner sc = new Scanner(System.in);
 		int a, b;
-		while (sc.hasNextInt()) {// ��� �Է��� ��ӵȴ�
+		while (sc.hasNextInt()) {// 계속 입력이 계속된다
 			a = sc.nextInt();
 			b = sc.nextInt();
 			System.out.println(a + b);
@@ -22,6 +22,6 @@ public class Q10951 {
 }
 
 /*
- * ���ͳ� �˻����� hasNextInt()�� �˰� �Ǿ���. resource �ݱ� ���� ������ �ڿ� ��뿡 ���õ� ���
- * ����(sc.close()�� ��� ���ؼ� ����� ��� ����)
+ * 인터넷 검색으로 hasNextInt()를 알게 되었다. resource 닫기 가능 유형의 자원 사용에 관련된 경고
+ * 억제(sc.close()를 사용 안해서 생기는 경고 억제)
  */

@@ -1,4 +1,4 @@
-//���丮��
+//팩토리얼 
 //20200120
 //recursionAlgorithm
 

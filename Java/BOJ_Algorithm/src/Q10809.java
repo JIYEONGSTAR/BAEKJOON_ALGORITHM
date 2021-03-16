@@ -1,4 +1,4 @@
-//���ĺ� ã��
+//알파벳 찾기 
 //20200109
 //stringAlgorithm
 
@@ -11,9 +11,9 @@ public class Q10809 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
-		char array[] = s.toCharArray();// �Է¹��� �ܾ� �ڸ���
-		int a[] = new int[26];// ���ĺ�
-		Arrays.fill(a, -1);// ���ͳ� �˻�, ��� �迭 �ѹ��� -1�� �ʱ�ȭ
+		char array[] = s.toCharArray();// 입력받은 단어 자른거
+		int a[] = new int[26];// 알파벳
+		Arrays.fill(a, -1);// 인터넷 검색, 모든 배열 한번에 -1로 초기화
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 'a'; j <= 'z'; j++) {
 				if (array[i] == (char) j && a[j - 97] == -1) {

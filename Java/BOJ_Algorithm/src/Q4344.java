@@ -1,4 +1,4 @@
-//����� �Ѱ���
+//평균은 넘겠지
 //20200107
 //oneDimensionalArrayAlgorithm
 
@@ -28,7 +28,7 @@ public class Q4344 {
 					count++;
 				}
 			}
-			System.out.printf("%.3f", 100.0 * count / n);// �Ҽ��� ��° �ڸ����� ���
+			System.out.printf("%.3f", 100.0 * count / n);// 소수점 셋째 자리까지 출력
 			System.out.println("%");
 		}
 		sc.close();
