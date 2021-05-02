@@ -41,10 +41,11 @@ public class Q4949 {
 				}
 			}
 		}
-		if (stack.isEmpty()) { //스택이 비어있으면 yes 
-			return "yes";
-		} else {
-			return "no";
-		}
+//		if (stack.isEmpty()) { //스택이 비어있으면 yes 
+//			return "yes";
+//		} else {
+//			return "no";
+//		}
+		return (stack.isEmpty()?"yes":"no");
 	}
 }
